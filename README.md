@@ -9,7 +9,7 @@ This repository contains a collection of advanced business analytics case studie
 - **Models:** Logistic Regression, Random Forest, Neural Network (MLPClassifier).
 - **Highlights:** Model comparison using AUC, gains, and profit analysis.
 
-### 2. Creative Gaming: Uplift Modeling (`cg-uplift.ipynb`, `cg-uplift answer.ipynb`)
+### 2. Creative Gaming: Uplift Modeling (`cg-uplift.ipynb`)
 - **Goal:** Estimate the incremental impact of marketing using uplift models.
 - **Models:** Uplift models, Random Forest, XGBoost, Neural Network.
 - **Highlights:** Comparison of uplift vs. propensity models, treatment effect estimation.
