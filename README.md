@@ -14,7 +14,7 @@ This repository contains a collection of advanced business analytics case studie
 - **Models:** Uplift models, Random Forest, XGBoost, Neural Network.
 - **Highlights:** Comparison of uplift vs. propensity models, treatment effect estimation.
 
-### 3. Intuit QuickBooks Upgrade (`intuit.ipynb`, `intuit_ct.ipynb`)
+### 3. Intuit QuickBooks Upgrade (`intuit.ipynb`)
 - **Goal:** Predict which customers are likely to upgrade to a new product version.
 - **Models:** Logistic Regression, Neural Network.
 - **Highlights:** Model evaluation for targeting and profit optimization.
@@ -24,7 +24,7 @@ This repository contains a collection of advanced business analytics case studie
 - **Models:** Logistic Regression, Random Forest, Neural Network, XGBoost, Linear Regression.
 - **Highlights:** Advanced modeling, feature engineering, and profit analysis.
 
-### 5. S-Mobile: Customer Churn (`s-mobile.ipynb`, `s-mobile answer.ipynb`)
+### 5. S-Mobile: Customer Churn (`s-mobile.ipynb`)
 - **Goal:** Predict customer churn and identify key churn drivers.
 - **Models:** Logistic Regression, XGBoost.
 - **Highlights:** Feature importance, impact analysis, and retention strategy.
@@ -34,29 +34,7 @@ This repository contains a collection of advanced business analytics case studie
 - **Models:** Logistic Regression, Linear Regression.
 - **Highlights:** Buyer prediction and order size modeling.
 
-### 7. TZ Gaming: Optimal Targeting of Mobile Ads (`tz-gaming.ipynb`, `tz-gaming copy.ipynb`)
+### 7. TZ Gaming: Optimal Targeting of Mobile Ads (`tz-gaming.ipynb`)
 - **Goal:** Optimize ad targeting to maximize clicks and marketing ROI.
 - **Models:** Logistic Regression, model evaluation (decile analysis, confusion matrix, profit/ROME).
 - **Highlights:** Model comparison, regularization discussion, and campaign simulation.
-
-## Getting Started
-
-1. **Environment:**
-   - All notebooks are designed to run in a Python environment with standard data science libraries (pandas, numpy, scikit-learn, matplotlib, seaborn, xgboost, etc.) and the `pyrsm` package.
-   - Some notebooks require data files in a `data/` subfolder.
-
-2. **Usage:**
-   - Open any notebook in JupyterLab or VS Code.
-   - Follow the instructions and run cells sequentially.
-   - Review markdown cells for case context, business questions, and interpretation guidance.
-
-3. **Collaboration:**
-   - Many cases are designed for group work and include workflow tips for using GitHub.
-   - Ensure reproducibility by not installing extra packages and keeping code self-contained.
-
-## License
-These case studies are for educational use only. Please do not share solutions outside your course or cohort.
-
----
-
-For questions or support, contact your course instructor or teaching assistant.
