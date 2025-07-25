@@ -1,40 +1,38 @@
 # Customer Analytics Case Studies
 
-This repository contains a collection of advanced business analytics case studies, each designed to provide hands-on experience with real-world data, predictive modeling, and data-driven decision making. The cases are implemented as Jupyter notebooks and cover a range of modeling techniques and business problems.
+These cases are designed to give hands-on experience with real-world data, predictive modeling, and data-driven decision making. The notebooks cover a variety of modeling techniques and business problems, including several examples of A/B testing and experimental design.
 
-## Case Summaries
+## Overview of Cases
+
+**A/B Testing & Experimental Design:**
+- Several cases (especially Creative Gaming: Uplift Modeling and Propensity-to-Buy) use randomized control and treatment groups to measure the impact of marketing interventions. These are classic examples of A/B testing in analytics.
+
+---
+
 
 ### 1. Creative Gaming: Propensity-to-Buy (`cg-prop.ipynb`)
-- **Goal:** Predict customer propensity to buy using various machine learning models.
-- **Models:** Logistic Regression, Random Forest, Neural Network (MLPClassifier).
-- **Highlights:** Model comparison using AUC, gains, and profit analysis.
+Predicts which customers are most likely to make a purchase. Uses logistic regression (for probability estimation), random forest (for feature importance and non-linear effects), and neural networks (for complex pattern recognition). Includes model comparison (AUC, gains), profit analysis, and experimental design elements.
+
 
 ### 2. Creative Gaming: Uplift Modeling (`cg-uplift.ipynb`)
-- **Goal:** Estimate the incremental impact of marketing using uplift models.
-- **Models:** Uplift models, Random Forest, XGBoost, Neural Network.
-- **Highlights:** Comparison of uplift vs. propensity models, treatment effect estimation.
+Measures the true effect of marketing by estimating the incremental impact (uplift) of ads on customer conversions. Uses uplift models (to separate treatment effect from baseline), random forest and XGBoost (for flexible, high-performance uplift estimation), and neural networks (for capturing complex interactions). Demonstrates A/B testing logic for treatment effect estimation.
+
 
 ### 3. Intuit QuickBooks Upgrade (`intuit.ipynb`)
-- **Goal:** Predict which customers are likely to upgrade to a new product version.
-- **Models:** Logistic Regression, Neural Network.
-- **Highlights:** Model evaluation for targeting and profit optimization.
+Identifies customers most likely to upgrade to a new product version. Uses logistic regression (for upgrade probability), and neural networks (for uncovering non-linear upgrade patterns). Focuses on model evaluation, targeting strategies, and profit optimization.
+
 
 ### 4. Pentathlon: Next Product to Buy (`pentathlon_nptb.ipynb`)
-- **Goal:** Predict the next product a customer will buy.
-- **Models:** Logistic Regression, Random Forest, Neural Network, XGBoost, Linear Regression.
-- **Highlights:** Advanced modeling, feature engineering, and profit analysis.
+Forecasts which product a customer is most likely to purchase next. Uses logistic regression (for purchase likelihood), random forest and XGBoost (for ranking product features and handling complex data), neural networks (for deep feature interactions), and linear regression (for predicting order size or value). Includes advanced modeling, feature engineering, and profit analysis.
+
 
 ### 5. S-Mobile: Customer Churn (`s-mobile.ipynb`)
-- **Goal:** Predict customer churn and identify key churn drivers.
-- **Models:** Logistic Regression, XGBoost.
-- **Highlights:** Feature importance, impact analysis, and retention strategy.
+Predicts which customers are at risk of leaving (churn) and uncovers the main reasons for churn. Uses logistic regression (for churn probability and driver analysis) and XGBoost (for ranking churn factors and improving prediction accuracy). Includes actionable insights and customer lifetime value calculations.
+
 
 ### 6. Tuango: Targeting Mobile App Messages (`tuango.ipynb`)
-- **Goal:** Target mobile app messages to maximize customer response and order size.
-- **Models:** Logistic Regression, Linear Regression.
-- **Highlights:** Buyer prediction and order size modeling.
+Optimizes which customers should receive mobile app messages to maximize response rates and order sizes. Uses logistic regression (for predicting likelihood to respond/buy) and linear regression (for estimating expected order size). Includes buyer prediction, order size modeling, and profitability analysis.
+
 
 ### 7. TZ Gaming: Optimal Targeting of Mobile Ads (`tz-gaming.ipynb`)
-- **Goal:** Optimize ad targeting to maximize clicks and marketing ROI.
-- **Models:** Logistic Regression, model evaluation (decile analysis, confusion matrix, profit/ROME).
-- **Highlights:** Model comparison, regularization discussion, and campaign simulation.
+Improves ad targeting to maximize clicks and marketing ROI. Uses logistic regression (for click probability prediction), decile analysis (for segmenting and ranking users by likelihood to click), confusion matrix (for evaluating targeting accuracy), and profit/ROME calculations (for financial impact assessment). Includes model comparison and campaign simulation.
