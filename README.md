@@ -31,6 +31,6 @@ Forecasts which product a customer is most likely to purchase next. Uses logisti
 Predicts which customers are at risk of leaving (churn) and uncovers the main reasons for churn. Uses logistic regression (for churn probability and driver analysis) and XGBoost (for ranking churn factors and improving prediction accuracy). Includes actionable insights and customer lifetime value calculations.
 
 ### [8. FiTech: Customer Adoption and Value](fitech.ipynb)
-Analyzes customer data for a financial technology product to predict key outcomes such as product adoption, usage frequency, or customer value. Applies logistic regression (for probability estimation), random forest and XGBoost (for feature ranking and handling complex data), and neural networks (for uncovering deep patterns). Includes model evaluation, feature engineering, and actionable insights for marketing or product strategy.
+Predicts key outcomes such as product adoption, usage frequency, or customer value. Applies logistic regression (for probability estimation), random forest and XGBoost (for feature ranking and handling complex data), and neural networks (for uncovering deep patterns). Includes model evaluation, feature engineering, and actionable insights for marketing or product strategy.
 
 
