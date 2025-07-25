@@ -25,12 +25,12 @@ Predicts which customers are most likely to make a purchase. Uses logistic regre
 Measures the true effect of marketing by estimating the incremental impact (uplift) of ads on customer conversions. Uses uplift models (to separate treatment effect from baseline), random forest and XGBoost (for flexible, high-performance uplift estimation), and neural networks (for capturing complex interactions). Demonstrates A/B testing logic for treatment effect estimation.
 
 ### [6. Pentathlon: Next Product to Buy](pentathlon_nptb.ipynb)
-Forecasts which product a customer is most likely to purchase next. Uses logistic regression (for purchase likelihood), random forest and XGBoost (for ranking product features and handling complex data), neural networks (for deep feature interactions), and linear regression (for predicting order size or value). Includes advanced modeling, feature engineering, and profit analysis.
+Recommends the next best product for each customer by ranking and predicting individual purchase preferences across a diverse product portfolio. Focuses on personalized product recommendation using multi-class prediction, advanced feature engineering, and profit-driven modeling. Techniques include logistic regression, random forest, XGBoost, neural networks, and linear regression for order value estimation.
 
 ### [7. S-Mobile: Customer Churn](s-mobile.ipynb)
-Predicts which customers are at risk of leaving (churn) and uncovers the main reasons for churn. Uses logistic regression (for churn probability and driver analysis) and XGBoost (for ranking churn factors and improving prediction accuracy). Includes actionable insights and customer lifetime value calculations.
+Identifies customers most likely to leave and analyzes the underlying reasons for churn. Emphasizes retention strategy by quantifying churn risk and uncovering key drivers of attrition. Uses logistic regression for churn probability, XGBoost for factor ranking, and delivers actionable insights for reducing churn and maximizing customer lifetime value.
 
 ### [8. FiTech: Customer Adoption and Value](fitech.ipynb)
-Predicts key outcomes such as product adoption, usage frequency, or customer value. Applies logistic regression (for probability estimation), random forest and XGBoost (for feature ranking and handling complex data), and neural networks (for uncovering deep patterns). Includes model evaluation, feature engineering, and actionable insights for marketing or product strategy.
+Forecasts which customers will adopt a financial technology product, how frequently they will use it, and their potential value to the business. Focuses on adoption modeling, usage prediction, and value segmentation to inform marketing and product strategy. Uses logistic regression, random forest, XGBoost, and neural networks for deep pattern discovery and strategic insights.
 
 
