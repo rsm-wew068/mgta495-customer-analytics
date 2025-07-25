@@ -31,6 +31,6 @@ Recommends the next best product for each customer by ranking and predicting ind
 Identifies customers most likely to leave and analyzes the underlying reasons for churn. Emphasizes retention strategy by quantifying churn risk and uncovering key drivers of attrition. Uses logistic regression for churn probability, XGBoost for factor ranking, and delivers actionable insights for reducing churn and maximizing customer lifetime value.
 
 ### [8. FiTech: Customer Adoption and Value](fitech.ipynb)
-Forecasts which customers will adopt a financial technology product, how frequently they will use it, and their potential value to the business. Focuses on adoption modeling, usage prediction, and value segmentation to inform marketing and product strategy. Uses logistic regression, random forest, XGBoost, and neural networks for deep pattern discovery and strategic insights.
+Forecasts which customers will adopt a credit card, how frequently they will use it, and their potential value to the business. Focuses on adoption modeling, usage prediction, and value segmentation to inform marketing and product strategy. Uses logistic regression, random forest, XGBoost, and neural networks for deep pattern discovery and strategic insights.
 
 
